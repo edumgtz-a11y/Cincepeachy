@@ -1,0 +1,47 @@
+{
+    "clientes": [
+        "Chusita",
+        "Esme",
+        "Juanita",
+        "Ana"
+    ],
+    "semanas": {
+        "Pedido 1 Octubre": {
+            "Papel": {
+                "tipo": "normal",
+                "precio": 40.0,
+                "costo_inversion": 100.0,
+                "fecha_llegada": "20/09/206",
+                "clientes": {
+                    "Chusita": 1,
+                    "Esme": 2,
+                    "Juanita": 3
+                }
+            },
+            "Pistaches": {
+                "tipo": "normal",
+                "precio": 90.0,
+                "costo_inversion": 500.0,
+                "fecha_llegada": "Por definir",
+                "clientes": {
+                    "Chusita": 1,
+                    "Juanita": 1,
+                    "Ana": 1
+                }
+            },
+            "Andrea": {
+                "tipo": "catalogo",
+                "precio": 0.0,
+                "costo_inversion": 2304.0,
+                "fecha_llegada": "20 octubre",
+                "clientes": {
+                    "Esme": {
+                        "detalle": "Adidas rosa",
+                        "precio": 3000.0,
+                        "cantidad": 1
+                    }
+                }
+            }
+        }
+    }
+}
